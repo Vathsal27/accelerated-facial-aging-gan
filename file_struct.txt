@@ -1,0 +1,23 @@
+facial_aging_gan/
+│
+├── data/
+│   ├── raw/               # Original UTKFace images
+│   └── processed/         # Aligned and filtered faces
+│
+├── models/
+│   ├── generator.py       # StarGAN v2 Generator
+│   ├── discriminator.py   # StarGAN v2 Discriminators
+│   ├── mapper.py          # Style mapping network
+│   ├── style_encoder.py   # Style encoder
+│   └── age_classifier/    # Pretrained age estimator
+│
+├── utils/
+│   ├── alignment/         # Face alignment tools
+│   ├── data_loader.py     # Enhanced data loading
+│   ├── visualization.py   # Interactive visualization
+│   └── evaluation.py      # Age classification metrics
+│
+├── config.py             
+├── train.py              
+├── predict.py            # With interactive controls
+└── requirements.txt
