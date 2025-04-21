@@ -11,7 +11,7 @@ class Config:
     NUM_DOMAINS = 6  # Age groups
     
     # Training
-    EPOCHS = 100
+    EPOCHS = 1000
     LR = 1e-4
     BETA1 = 0.0
     BETA2 = 0.99
