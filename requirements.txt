@@ -1,9 +1,6 @@
-tensorflow>=2.8.0
-opencv-python
+tensorflow-gpu==2.8.0
+opencv-python 
 dlib
-gradio
-numpy
 tqdm
 matplotlib
-scikit-learn
-git+https://github.com/tensorflow/addons.git
+gradio
